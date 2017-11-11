@@ -12,6 +12,6 @@ object Hello extends App {
 //  val tpe2 = TypeProvider("array.json")
 //  println(tpe2.toArray.mkString(", "))
 //
-//  val tpe3 = TypeProvider("arrayofobj.json")
-//  println(tpe3.toArray.mkString(", "))
+  val tpe3 = TypeProvider("arrayofobj.json")
+  println(tpe3.toArray.mkString(", "))
 }
